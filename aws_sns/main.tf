@@ -24,6 +24,14 @@ data "aws_iam_policy_document" "custom_sns_policy" {
       "SNS:AddPermission",
     ]
 
+    # condition {
+    #   test     = "StringEquals"
+    #   variable = "AWS:SourceOwner"
+
+    #   values = [
+    #     var.account_id,
+    #   ]
+    # }
 
     effect = "Allow"
 
@@ -40,3 +48,13 @@ data "aws_iam_policy_document" "custom_sns_policy" {
   }
 }
 
+# data "aws_sns_topic" "example" {
+  
+#     name                        =    "my_first_sns"
+
+#   depends_on = [
+    
+#     aws_sns_topic.sns_topic
+  
+#   ]
+# }

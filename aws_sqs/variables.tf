@@ -1,12 +1,14 @@
 variable "access_key" {
         description = "Access key to AWS console"
-        default     =    ""
+        default     = ""
         type        =    string
+
 }
 variable "secret_key" {
         description = "Secret key to AWS console"
-        default     =    ""
+        default     = ""
         type        =    string
+
 }
 
 

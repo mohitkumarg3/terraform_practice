@@ -22,3 +22,13 @@ resource "aws_sqs_queue_policy" "sqs_policy" {
 POLICY
 }
 
+# data "aws_sns_topic" "example" {
+  
+#     name                        =    "my_first_sns"
+
+# depends_on = [
+    
+#     aws_sqs_queue.first_sqs
+  
+#   ]
+# }

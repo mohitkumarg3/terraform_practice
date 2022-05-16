@@ -12,8 +12,12 @@ variable "secret_key" {
 
 variable "sns_name" {
         description = "Name of the SNS Topic to be created"
+        
 }
 
+# variable "account_id" {
+#         description = "My Accout Number"
+# }
 
 variable "region" {
     
