@@ -50,7 +50,7 @@ data "aws_iam_policy_document" "custom_sns_policy" {
 
 # data "aws_sns_topic" "example" {
   
-#     name                        =    "my_first_sns"
+#     name     =    "my_first_sns"
 
 #   depends_on = [
     
