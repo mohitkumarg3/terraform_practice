@@ -24,7 +24,7 @@ POLICY
 
 # data "aws_sns_topic" "example" {
   
-#     name                        =    "my_first_sns"
+#     name   =    "my_first_sns"
 
 # depends_on = [
     
